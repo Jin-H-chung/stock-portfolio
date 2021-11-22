@@ -1,7 +1,7 @@
 
-class portfolio:
+class Portfolio:
     def __init__(self):
-        self._stocks = []   #store in the list. what is public and private??
+        self._stocks = []   #store in the list. what is public and private?? _ pirvete 
 
     def buy(self, name, shares, price):
         self._stocks.append((name, shares, price)) #tuple
